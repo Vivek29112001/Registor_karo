@@ -1,160 +1,163 @@
 .Manage {
-    font-family: Arial, sans-serif;
-  }
-  
-  .Manage-header {
-    background-color: #f8f9fa;
-    padding: 20px;
-  }
-  
-  .orange-h2 {
-    color: orange;
-    font-size: medium;
-  }
-  
-  .h3-o {
-    margin-top: -5px;
-  }
-  .down{
-    text-align: justify;
-  }
+  font-family: Arial, sans-serif;
+}
+
+.Manage-header {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.orange-h2 {
+  color: orange;
+  font-size: medium;
+}
+
+.h3-o {
+  margin-top: -5px;
+}
+
+.down {
+  text-align: justify;
+}
+
+.top-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+  text-align: justify;
+}
+
+.download-buttons {
+  margin-top: 20px;
+}
+
+.download-buttons a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #003366;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.phone-images {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-images img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 10px;
+}
+
+.numbers-section {
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.number-item {
+  flex: 1;
+  min-width: 150px;
+  margin: 20px;
+}
+
+.number-item h4 {
+  font-size: 2em;
+  color: #003366;
+}
+
+.number-item p {
+  font-size: 1em;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1200px) {
   .top-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    background-color: #003366;
-    color: white;
-    padding: 20px;
+    padding: 10px;
   }
-  
-  .text-content {
-    flex: 1;
-    min-width: 300px;
-    text-align: justify;
-  }
-  
-  .download-buttons {
-    margin-top: 20px;
-  }
-  
-  .download-buttons a {
-    display: inline-block;
-    margin-right: 10px;
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #003366;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .phone-images {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .phone-images img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 10px;
-  }
-  
-  .numbers-section {
+
+  .text-content, .phone-images {
+    min-width: 100%;
     text-align: center;
-    padding: 0px 20px;
+    margin: 10px 0;
   }
-  
+
+  .download-buttons a {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+
   .numbers {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
   }
-  
+
   .number-item {
-    flex: 1;
-    min-width: 150px;
-    margin: 20px;
+    min-width: 100%;
+    margin: 10px 0;
   }
-  
-  .number-item h4 {
-    font-size: 2em;
-    color: #003366;
-  }
-  
-  .number-item p {
-    font-size: 1em;
-  }
-  
-
-  @media (max-width: 1200px) {
-    .top-section {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .text-content, .phone-images {
-        min-width: 100%;
-        text-align: center;
-        margin: 10px 0;
-    }
-
-    .download-buttons a {
-        margin: 10px 0;
-        width: 100%;
-        text-align: center;
-    }
-
-    .numbers {
-        flex-direction: column;
-    }
-
-    .number-item {
-        min-width: 100%;
-        margin: 10px 0;
-    }
 }
 
 @media (max-width: 768px) {
-    .Manage-header {
-        padding: 10px;
-    }
+  .Manage-header {
+    padding: 10px;
+  }
 
-    .orange-h2 {
-        font-size: small;
-    }
+  .orange-h2 {
+    font-size: small;
+  }
 
-    .down {
-        text-align: left;
-    }
+  .down {
+    text-align: left;
+  }
 
-    .top-section {
-        padding: 5px;
-    }
+  .top-section {
+    padding: 5px;
+  }
 
-    .text-content {
-        padding: 10px;
-    }
+  .text-content {
+    padding: 10px;
+  }
 
-    .download-buttons {
-        padding: 10px 0;
-    }
+  .download-buttons {
+    padding: 10px 0;
+  }
 
-    .phone-images img {
-        width: 80%;
-    }
+  .phone-images img {
+    width: 80%;
+  }
 
-    .numbers-section {
-        padding: 10px;
-    }
+  .numbers-section {
+    padding: 10px;
+  }
 
-    .number-item h4 {
-        font-size: 1.5em;
-    }
+  .number-item h4 {
+    font-size: 1.5em;
+  }
 
-    .number-item p {
-        font-size: 0.9em;
-    }
+  .number-item p {
+    font-size: 0.9em;
+  }
 }

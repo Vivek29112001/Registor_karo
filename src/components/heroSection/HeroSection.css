@@ -65,17 +65,18 @@
 .see-how {
   background-color: transparent;
   color: #fff9f9;
-  font-size:medium;
+  font-size: medium;
 }
 
 h1 {
   font-size: xx-large;
   font-weight: bolder;
 }
-.FaYoutube{
+
+.FaYoutube {
   color: red;
   border-radius: 100%;
-} 
+}
 
 .side-buttons {
   display: flex;
@@ -91,67 +92,69 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* Responsive Styles */
+
 @media (max-width: 1200px) {
   .hero-section {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: auto;
-      padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
   }
 
   .content {
-      max-width: 100%;
-      margin-top: 0;
+    max-width: 100%;
+    margin-top: 0;
   }
 
   .stats {
-      flex-direction: column;
-      align-items: center;
-      margin-top: 20px;
-      gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
   }
 
   .button-group {
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
 }
 
 @media (max-width: 768px) {
   .hero-section {
-      padding: 10px;
+    padding: 10px;
   }
 
   .content {
-      padding: 15px;
-      font-size: small;
+    padding: 15px;
+    font-size: small;
   }
 
   .stats {
-      margin-top: 10px;
+    margin-top: 10px;
   }
 
   .button-group {
-      margin-top: 10px;
+    margin-top: 10px;
   }
 
   .talk-expert, .see-how {
-      padding: 8px 16px;
-      font-size: small;
+    padding: 8px 16px;
+    font-size: small;
   }
 
   h1 {
-      font-size: large;
+    font-size: large;
   }
 
   .side-buttons {
-      gap: 20px;
+    gap: 20px;
   }
 
   .side-buttons button {
-      padding: 8px;
+    padding: 8px;
   }
 }
-
